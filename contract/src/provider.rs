@@ -115,7 +115,7 @@ pub extern "C" fn unset_event() {
 
 ///[For Event Provider] When you think a event is evoke, send this event to target by using this
 ///```rust
-///send_event("event_name",Some(target),Some(target_entry),runtime_args!{});
+///send_event("event_name".into(),Some(target),Some(target_entry),runtime_args!{});
 ///```
 ///send_event function will auto add "event_name" to args;
 pub fn send_event(
