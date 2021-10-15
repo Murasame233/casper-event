@@ -3,6 +3,10 @@
 this project is a lib that makes developer can easily use event on their smart contract.
 
 # how to
+add to cargo.toml
+```
+casper_event = "0.1.0"
+```
 
 ## Event Provider
 
