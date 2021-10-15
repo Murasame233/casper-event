@@ -1,3 +1,16 @@
+//! [For Event Provider]
+//! 
+//! use:
+//! ```
+//! let mut entry = EntryPoints::new();
+//! if let (entry_set: EntryPoint,entry_unset: EntryPoint) = get_set_event_entry(){
+//!     entry.add_entry_point(entry_set);
+//!     entry.add_entry_point(entry_unset);
+//! }
+//! let mut named_keys = NamedKeys::new();
+//! named_keys.append(&mut get_set_event_named_keys())
+//! new_contract(entry, named_keys, _, _);
+//! ```
 extern crate alloc;
 
 use alloc::{string::String, vec, vec::Vec};
@@ -166,7 +179,7 @@ pub fn get_set_event_entry() -> (EntryPoint, EntryPoint) {
     )
 }
 
-/// [For Event Provider] get named_keys stored on runtime for you contract
+/// [For Event Provider] get named_keys stored on runtime for you new version contract
 /// ```
 /// let mut named_keys = NamedKeys::new();
 /// named_keys.append(&mut get_set_event_named_keys())

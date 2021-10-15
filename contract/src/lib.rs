@@ -15,7 +15,9 @@ pub use provider::get_set_event_entry;
 pub use provider::get_set_event_named_keys;
 #[doc(inline)]
 pub use provider::send_event;
+#[doc(hidden)]
 pub use provider::set_event;
+#[doc(hidden)]
 pub use provider::unset_event;
 
 pub mod user;

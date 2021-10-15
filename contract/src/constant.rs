@@ -1,3 +1,5 @@
+//! Constants
+
 /// value: set_callbacks
 pub const CALLBACKS_KEY: &str = "callbacks";
 /// value: set_event

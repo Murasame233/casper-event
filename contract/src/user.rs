@@ -1,3 +1,10 @@
+//! [For Event User]
+//!
+//! use
+//! ```
+//! set_event_callback("event_name".into(),contract_hash,callback_entry,target_hash);
+//! unset_event_callback("event_name".into(),contract_hash,callback_entry,target_hash);
+//! ```
 extern crate alloc;
 
 use alloc::string::String;
