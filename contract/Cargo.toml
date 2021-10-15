@@ -8,7 +8,7 @@ authors = ["Murasame <me@murasame.moe>"]
 keywords = ["casper", "blockchain", "smart_contract"]
 homepage = "https://casper.network"
 repository = "https://github.com/Murasame233/casper-event"
-readme = "README.md"
+readme = "../README.md"
 
 [dependencies]
 casper-contract = "1.3.3"
