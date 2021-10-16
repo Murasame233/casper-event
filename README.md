@@ -42,6 +42,6 @@ fn handler(){
 
 // set event callback
     ...
-    set_event_callback("handler".into(),contract_hash,callback_entry,target_hash);
+    set_event_callback("event_name".into(),contract_hash,"handler".into(),target_hash);
     ...
 ```
